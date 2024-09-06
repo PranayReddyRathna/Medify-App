@@ -1,0 +1,11 @@
+.slotpill{
+    border:3px solid #2AA7FF;
+    border-radius:2px;
+    margin:1rem 1rem 1rem 1rem;
+    /* padding:0rem 1rem 1rem 1rem; */
+    width:6.4rem;
+    align-content: center;
+    height: 3rem;
+
+    border-radius: 5px;
+}
