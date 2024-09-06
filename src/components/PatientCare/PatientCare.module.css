@@ -1,0 +1,23 @@
+.container{
+    background: var(--primary-background-color);
+    margin-top: 4rem;
+    padding-top: 4rem;
+    display: flex;
+        gap:20rem;
+    align-items: center;
+    padding:6rem 5rem 4rem 5rem;
+}
+.doc1{
+    margin-left: 10rem;
+}
+.doc2{
+    margin-top:-70px;
+}
+@media(max-width:767px)
+{
+    .container{
+        flex-direction: column;
+        gap:2rem;
+    }
+   
+}
