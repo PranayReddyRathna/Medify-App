@@ -1,0 +1,19 @@
+.containers{
+    background:var(--primary-background-color);
+    display:flex;
+   
+}
+.container{
+   text-align:start;
+ padding-left:15rem;
+ padding-top:2rem;
+}
+.advertisement{
+ margin-top:6rem;
+ margin-left:0rem;
+}
+@media(max-width:767px){
+ .containers{
+   flex-direction: column;
+ }
+}

@@ -1,0 +1,116 @@
+.container {
+    background-color: white;
+    
+    width: auto;
+    padding: 3rem;
+    border-radius: 15px;
+   margin-top: -13rem;
+   position: relative;
+   z-index: 10;
+   box-shadow: 1px 1px 15px 0px grey;
+   
+}
+
+.inputsection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.inputsearch {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    width: 70%;
+    padding: 5px;
+}
+
+.inputfield {
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: #F0F0F0;
+    color: #ABB6C7;
+    font-size: 1.5rem;
+    padding-left:0.5rem;
+    margin-left: 10px;
+    width: 24vw;
+    padding:1rem;
+}
+
+.searchbtn {
+    padding: 5px;
+    color: white;
+    background: var(--primary-main-color);
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Poppins;
+    font-size:1.5rem;
+}
+
+.lookup {
+    padding-top: 3rem;
+    text-align: center; /* Center the text and icons section */
+}
+
+.textstyle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    text-align: center; /* Center the text */
+}
+
+.arrangeicons {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-content: center; /* Center icons horizontally */
+    align-items:center;
+    margin: 0 auto; /* Center the entire icons grid */
+    margin-top:2rem;
+}
+.iconsection{
+     width: 203px;
+      height: 153px;
+       background: #FAFBFE;
+        border: 1px solid #FAFBFE;
+         display: flex;
+          align-items:center;
+          justify-content:center;
+           flex-direction: column;    
+           text-align:center;
+}
+.iconsection:hover{
+    border:1px solid #2AA7FF;
+    border-radius:5px;
+}
+@media (max-width: 767px) {
+    .inputsection {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 0rem;
+        width: 100%;
+    }
+
+    .inputsearch {
+        align-items: center;
+        width: 100%;
+    }
+
+    .searchbtn {
+        width: 102%;
+    }
+
+    .arrangeicons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
